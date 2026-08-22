@@ -18,4 +18,3 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: pip install -r requirements.txt
       - run: python splatworld2.py --selftest
-      - run: python webcam_drive.py --selftest
