@@ -1,5 +1,7 @@
 # SplatWorld2
 
+![pic](splatworld2.png)
+
 A no-retraining experiment built from the original **SplatWorld** CelebA decoder.
 
 The model itself is unchanged: `splat_decoder.onnx` maps a 128-D latent point to a 96x96 Gabor-rendered face. SplatWorld2 changes how we explore that learned face space and how we display local motion without allowing repeated reconstruction to dissolve the image.
